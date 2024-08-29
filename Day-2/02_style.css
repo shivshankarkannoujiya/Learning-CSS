@@ -1,0 +1,26 @@
+.red{
+    height: 160px;
+    width: 160px;
+    background-color: red;
+}
+.green{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    background-color: green;
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+/* 
+Absolute:
+
+1. it moves one level top
+2. We ca move it where ever we want
+3. it moves with respect to screen Size 
+*/
