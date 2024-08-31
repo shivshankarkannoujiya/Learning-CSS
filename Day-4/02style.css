@@ -1,0 +1,52 @@
+body{
+    background-color: #212121;
+}
+
+.card{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    margin-top: 50px;
+    animation-name: animationOne;
+    animation-duration: 3s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes animationOne{
+    from{}
+    to{
+        transform: rotate(360deg);
+        margin-left: 800px;
+        background-color: rgba(63, 114, 115, 0.338);
+        /* border-radius: 0px; */
+        /* border: 1px solid aliceblue; */
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TODO:  Remember
+
+Animation,
+
+1. Name
+2. Duration
+3. Initial Point (Source)
+4. Final Point (Destination)
+ */
